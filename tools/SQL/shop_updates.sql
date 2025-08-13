@@ -4,7 +4,9 @@ WHERE
     shopid = 9000069;
 
 INSERT INTO
-    shopitems (shopid, itemid, price, pitch, position) (9000069, 2340000, 10000000, 0, 183),
+    shopitems (shopid, itemid, price, pitch, position)
+VALUES
+    (9000069, 2340000, 10000000, 0, 183),
     (9000069, 2040017, 500000, 0, 724),
     (9000069, 2040016, 150000, 0, 720),
     (9000069, 2040014, 400000, 0, 716),
