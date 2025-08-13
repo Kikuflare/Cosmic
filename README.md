@@ -5,10 +5,11 @@ Gameplay changes in KikuMS compared to vanilla Cosmic
 - Maximum allowed level of Kerning and Ludibrium Party Quest set to 200
 - Disabled expiration of Cash Shop items
 - Accounts start with 9,999,999 NX
+- Moved @whatdropsfrom and @whodrops commands to level 0 gm
 
 
 ## Shop changes
-### Inkwell (Henesys NPC)
+### Inkwell
 - Removed the default shop items of this NPC
 - Added certain 10%/30%/60%/70% scrolls
 - Added Zakum Helmet
