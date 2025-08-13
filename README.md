@@ -1,4 +1,20 @@
-﻿# Cosmic
+﻿# KikuMS
+Gameplay changes in KikuMS compared to vanilla Cosmic
+- EXP rate set to 2x from 10x
+- Forced 1x EXP rate on Maple Island
+- Maximum allowed level of Kerning and Ludibrium Party Quest set to 200
+- Disabled expiration of Cash Shop items
+- Accounts start with 9,999,999 NX
+
+
+## Shop changes
+### Inkwell (Henesys NPC)
+- Removed the default shop items of this NPC
+- Added certain 10%/30%/60%/70% scrolls
+- Added Zakum Helmet
+- Added White Scrolls and Chaos Scrolls
+
+# Cosmic
 Cosmic is a server emulator for Global MapleStory (GMS) version 83.
 
 ## Introduction
