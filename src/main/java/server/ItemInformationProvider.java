@@ -377,8 +377,11 @@ public class ItemInformationProvider {
                     ret = 9999;
                 }
             } else {
-                // ret = (short) DataTool.getInt(smEntry);
-                ret = 9999;
+                if (ItemConstants.isRechargeable(itemId)) {
+                    ret = (short) DataTool.getInt(smEntry);
+                } else {
+                    ret = 9999;
+                }
             }
         }
 
