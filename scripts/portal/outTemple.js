@@ -20,8 +20,9 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 function enter(pi) {
-    pi.useItem(2210016);
+    //pi.useItem(2210016);
     pi.playPortalSound();
-    pi.warp(200090510, 0);
+    //pi.warp(200090510, 0);
+    pi.warp(240000110, 0); // Leafre - Station
     return true;
-}  
+}
