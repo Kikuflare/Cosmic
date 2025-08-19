@@ -10,7 +10,7 @@ Gameplay changes in KikuMS compared to vanilla Cosmic
 - Disabled PIN
 - Disabled rate coupons
 - Disabled pet hunger
-- Set minimum players required for guild creation to 1
+- Set minimum players required for guild creation to 2
 - Set maximum stack for non-equip, non-rechargeable items to 9999
 - Enabled perfect scrolling (global white scrolls)
 - Added workaround for entrace to Time Lane - Temple of Time
