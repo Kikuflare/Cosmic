@@ -177,6 +177,17 @@ public final class ItemConstants {
         return itemId / 10000 == 514;
     }
 
+    public static boolean isBannedItem(int itemId) {
+        return 
+                itemId == 5220000 || // Gachapon Ticket
+                itemId == 5220010 || // Gachapon for slot machines 
+                itemId == 5220020 || // Gachapon for Net Cafe
+                itemId == 5451000 || // Remote Gachapon Ticket
+                itemId == 5610000 || // Vega's Spell(10%)
+                itemId == 5610001 || // Vega's Spell(60%)
+                itemId == 5222000; // Cash Shop Surprise
+    }
+
     public static InventoryType getInventoryType(final int itemId) {
         if (inventoryTypeCache.containsKey(itemId)) {
             return inventoryTypeCache.get(itemId);

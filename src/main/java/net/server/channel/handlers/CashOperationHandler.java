@@ -95,6 +95,10 @@ public final class CashOperationHandler extends AbstractPacketHandler {
                         } else if (ItemConstants.isMapleLife(cItem.getItemId()) && chr.getLevel() < 30) {
                             c.enableCSActions();
                             return;
+                        } else if (ItemConstants.isBannedItem(cItem.getItemId())) {
+                            chr.dropMessage(1, "This item is currently unavailable.");
+                            c.enableCSActions();
+                            return;
                         }
 
                         Item item = cItem.toItem();
