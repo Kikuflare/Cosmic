@@ -40,4 +40,17 @@ VALUES
     (-1, 1003023, 1, 1, 0, 100, 'Targar Hat(INT)'),
     (-1, 1003024, 1, 1, 0, 100, 'Targar Hat(LUK)'),
     (-1, 1003025, 1, 1, 0, 100, 'Scarlion Hat(DEX)'),
-    (-1, 1003026, 1, 1, 0, 100, 'Scarlion Hat(STR)');
+    (-1, 1003026, 1, 1, 0, 100, 'Scarlion Hat(STR)'),
+    (-1, 1322062, 1, 1, 0, 100, 'Crushed Skull'),
+    (-1, 1372039, 1, 1, 0, 10, 'Elemental Wand 5'),
+    (-1, 1372040, 1, 1, 0, 10, 'Elemental Wand 6'),
+    (-1, 1372041, 1, 1, 0, 10, 'Elemental Wand 7'),
+    (-1, 1372042, 1, 1, 0, 10, 'Elemental Wand 8'),
+    (-1, 1382049, 1, 1, 0, 10, 'Elemental Staff 5'),
+    (-1, 1382050, 1, 1, 0, 10, 'Elemental Staff 6'),
+    (-1, 1382051, 1, 1, 0, 10, 'Elemental Staff 7'),
+    (-1, 1382052, 1, 1, 0, 10, 'Elemental Staff 8'),
+    (-1, 5451000, 1, 1, 0, 10000, 'Remote Gachapon Ticket');
+
+    
+    

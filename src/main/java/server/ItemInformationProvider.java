@@ -1420,20 +1420,21 @@ public class ItemInformationProvider {
     }
 
     public boolean isPickupRestricted(int itemId) {
-        if (pickupRestrictionCache.containsKey(itemId)) {
-            return pickupRestrictionCache.get(itemId);
-        }
+        // if (pickupRestrictionCache.containsKey(itemId)) {
+        //     return pickupRestrictionCache.get(itemId);
+        // }
 
-        boolean bRestricted = false;
-        if (itemId != 0) {
-            Data data = getItemData(itemId);
-            if (data != null) {
-                bRestricted = DataTool.getIntConvert("info/only", data, 0) == 1;
-            }
-        }
+        // boolean bRestricted = false;
+        // if (itemId != 0) {
+        //     Data data = getItemData(itemId);
+        //     if (data != null) {
+        //         bRestricted = DataTool.getIntConvert("info/only", data, 0) == 1;
+        //     }
+        // }
 
-        pickupRestrictionCache.put(itemId, bRestricted);
-        return bRestricted;
+        // pickupRestrictionCache.put(itemId, bRestricted);
+        // return bRestricted;
+        return false;
     }
 
     private Pair<Map<String, Integer>, Data> getSkillStatsInternal(int itemId) {
