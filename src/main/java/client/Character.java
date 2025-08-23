@@ -2123,12 +2123,12 @@ public class Character extends AbstractCharacterObject {
     }
 
     public boolean canHoldUniques(List<Integer> itemids) {
-        ItemInformationProvider ii = ItemInformationProvider.getInstance();
-        for (Integer itemid : itemids) {
-            if (ii.isPickupRestricted(itemid) && this.haveItem(itemid)) {
-                return false;
-            }
-        }
+        // ItemInformationProvider ii = ItemInformationProvider.getInstance();
+        // for (Integer itemid : itemids) {
+        //     if (ii.isPickupRestricted(itemid) && this.haveItem(itemid)) {
+        //         return false;
+        //     }
+        // }
 
         return true;
     }
