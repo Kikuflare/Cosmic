@@ -3,55 +3,57 @@ package server.gachapon;
 /**
  * @author Alan (SharpAceX) - gachapon source classes stub
  * @author Ronan - parsed MapleSEA loots
- * <p>
- * MapleSEA-like loots src: http://maplesecrets.blogspot.com/2011/06/gachapon-showa-towns-sauna-female-spa.html
+ *         <p>
+ *         MapleSEA-like loots src:
+ *         http://maplesecrets.blogspot.com/2011/06/gachapon-showa-towns-sauna-female-spa.html
  */
 
 public class ShowaSpaFemale extends GachaponItems {
 
     @Override
     public int[] getCommonItems() {
-        return new int[]{
-
-                /* Scroll */
-                2048005, 2048002, 2043202, 2044602, 2043214, 2041307, 2041035, 2044104, 2044505, 2044305, 2043304, 2041309,
-                2044010, 2044803, 2044814, 2044904, 2044902, 2044901,
-
-                /* Useable drop */
-                2022016, 2000005, 2022025, 2022027,
-
-                /* Common equipment */
-                1402000, 1402013, 1002418, 1022047, 1082145, 1082147, 1082146, 1082178, 1082175,
-
-                /* Common setup */
-                3010073, 3010099,
-
-                /* Warrior equipment */
-                1422013, 1432030,
-
-                /* Magician equipment */
-                1372002, 1382003,
-
-                /* Bowman equipment */
-                1040023,
-
-                /* Thief equipment */
-                1332003, 1002209,
-
-                /* Pirate equipment */
-                1082198, 1082213, 1482007, 1492004, 1002646
-
+        return new int[] {
+                1051105, // Green Armis
+                1051106, // Blue Armis
+                1051107, // Red Armis
+                1051101, // Green Bazura
+                1051102, // Blue Bazura
+                1051103, // Red Bazura
+                1051104, // Dark Bazura
+                1052131, // Red Belly Duke
+                1051090, // Green Katte
+                1051091, // Blue Katte
+                1051092, // Red Katte
+                1051093, // Dark Katte
+                1041122, // Green Lucida
+                1041123, // Purple Lucida
+                1041124, // Dark Lucida
+                1061121, // Green Lucida Skirt
+                1061122, // Purple Lucida Skirt
+                1061123, // Dark Lucida Skirt
         };
     }
 
     @Override
     public int[] getUncommonItems() {
-        return new int[]{2040916, 1102042};
+        return new int[] {
+                1052071, // Red Mantle
+                1052076, // Blue Czar
+                1052134, // Canopus Suit
+                1052072, // Black Garina
+                1052075, // Blue Dragon Armor
+        };
     }
 
     @Override
     public int[] getRareItems() {
-        return new int[]{};
+        return new int[] {
+                1072239, // Yellow Snowshoes
+                1372039, // Elemental Wand 5
+                1372040, // Elemental Wand 6
+                1372041, // Elemental Wand 7
+                1372042, // Elemental Wand 8
+        };
     }
 
 }

@@ -12,12 +12,14 @@ INSERT INTO
         comments
     )
 VALUES
+    (-1, 5451000, 1, 1, 0, 10000, 'Remote Gachapon Ticket'),
     (-1, 2049100, 1, 1, 0, 100, 'Chaos Scroll 60%'),
     (-1, 1002357, 1, 1, 0, 100, 'Zakum Helmet'),
     (-1, 1132014, 1, 1, 0, 100, "Witch's Crimson Belt"),
     (-1, 1132015, 1, 1, 0, 100, "Witch's Ocean Blue Belt"),
     (-1, 1132016, 1, 1, 0, 100, "Witch's Deep Purple Belt"),
     (-1, 1032032, 1, 1, 0, 100, 'Fallen Leaf Earrings'),
+    (-1, 1032048, 1, 1, 0, 100, 'Crystal Leaf Earrings'),
     (-1, 1022058, 1, 1, 0, 100, 'Raccoon Mask'),
     (-1, 1022060, 1, 1, 0, 100, 'White Raccoon Mask'),
     (-1, 1022073, 1, 1, 0, 100, 'Broken Glasses'),
@@ -42,6 +44,7 @@ VALUES
     (-1, 1003025, 1, 1, 0, 100, 'Scarlion Hat(DEX)'),
     (-1, 1003026, 1, 1, 0, 100, 'Scarlion Hat(STR)'),
     (-1, 1322062, 1, 1, 0, 100, 'Crushed Skull'),
+    (-1, 1032061, 1, 1, 0, 100, 'Glittering Altaire Earrings'),
     (-1, 1372039, 1, 1, 0, 10, 'Elemental Wand 5'),
     (-1, 1372040, 1, 1, 0, 10, 'Elemental Wand 6'),
     (-1, 1372041, 1, 1, 0, 10, 'Elemental Wand 7'),
@@ -50,7 +53,7 @@ VALUES
     (-1, 1382050, 1, 1, 0, 10, 'Elemental Staff 6'),
     (-1, 1382051, 1, 1, 0, 10, 'Elemental Staff 7'),
     (-1, 1382052, 1, 1, 0, 10, 'Elemental Staff 8'),
-    (-1, 5451000, 1, 1, 0, 10000, 'Remote Gachapon Ticket');
+    (-1, 1003016, 1, 1, 0, 1, 'Wild Wolf Bandana');
 
     
     
