@@ -1071,7 +1071,11 @@ public class ItemInformationProvider {
         if (equip instanceof Equip nEquip) {
             Map<String, Integer> stats = this.getEquipStats(scrollId);
 
-            if (((nEquip.getUpgradeSlots() > 0 || ItemConstants.isCleanSlate(scrollId))) || assertGM) {
+            if (((
+                nEquip.getUpgradeSlots() > 0
+                || nEquip.getUpgradeSlots() == 0 && (ItemConstants.isNonDpsScroll(scrollId) || !ItemConstants.isModifierScroll(scrollId))
+                || ItemConstants.isCleanSlate(scrollId)
+                )) || assertGM) {
                 double prop = (double) stats.get("success");
 
                 switch (vegaItemId) {
