@@ -6437,7 +6437,7 @@ public class Character extends AbstractCharacterObject {
             getGuild().broadcast(PacketCreator.levelUpMessage(2, level, name), this.getId());
         }
 
-        if (level % 20 == 0) {
+        if (level % 10 == 0) {
             if (YamlConfig.config.server.USE_ADD_SLOTS_BY_LEVEL == true) {
                 if (!isGM()) {
                     for (byte i = 1; i < 5; i++) {
