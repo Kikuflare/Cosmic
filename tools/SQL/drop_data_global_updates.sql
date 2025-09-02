@@ -45,6 +45,7 @@ VALUES
     (-1, 1003026, 1, 1, 0, 100, 'Scarlion Hat(STR)'),
     (-1, 1322062, 1, 1, 0, 100, 'Crushed Skull'),
     (-1, 1032061, 1, 1, 0, 100, 'Glittering Altaire Earrings'),
+    (-1, 1122059, 1, 1, 0, 100, 'Mark of Naricain'),
     (-1, 1372039, 1, 1, 0, 10, 'Elemental Wand 5'),
     (-1, 1372040, 1, 1, 0, 10, 'Elemental Wand 6'),
     (-1, 1372041, 1, 1, 0, 10, 'Elemental Wand 7'),
