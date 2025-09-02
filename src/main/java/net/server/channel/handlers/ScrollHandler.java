@@ -79,7 +79,7 @@ public final class ScrollHandler extends AbstractPacketHandler {
                 if (ItemConstants.isCleanSlate(scroll.getItemId()) && !ii.canUseCleanSlate(toScroll)) {
                     announceCannotScroll(c, legendarySpirit);
                     return;
-                } else if (!ItemConstants.isModifierScroll(scroll.getItemId()) && toScroll.getUpgradeSlots() < 1) {
+                } else if (!ItemConstants.isModifierScroll(scroll.getItemId()) && !ItemConstants.isNonDpsScroll(scroll.getItemId()) && toScroll.getUpgradeSlots() < 1) {
                     announceCannotScroll(c, legendarySpirit);   // thanks onechord for noticing zero upgrade slots freezing Legendary Scroll UI
                     return;
                 }

@@ -1120,18 +1120,18 @@ public class ItemInformationProvider {
                             break;
                     }
                     if (!ItemConstants.isCleanSlate(scrollId)) {
-                        if (!assertGM && !ItemConstants.isModifierScroll(scrollId)) {   // issue with modifier scrolls taking slots found thanks to Masterrulax, justin, BakaKnyx
+                        if (!assertGM && !ItemConstants.isModifierScroll(scrollId) && !ItemConstants.isNonDpsScroll(scrollId)) {   // issue with modifier scrolls taking slots found thanks to Masterrulax, justin, BakaKnyx
                             nEquip.setUpgradeSlots((byte) (nEquip.getUpgradeSlots() - 1));
                         }
                         nEquip.setLevel((byte) (nEquip.getLevel() + 1));
                     }
                 } else {
-                    if (!YamlConfig.config.server.USE_PERFECT_SCROLLING && !usingWhiteScroll && !ItemConstants.isCleanSlate(scrollId) && !assertGM && !ItemConstants.isModifierScroll(scrollId)) {
+                    if (!YamlConfig.config.server.USE_PERFECT_SCROLLING && !usingWhiteScroll && !ItemConstants.isCleanSlate(scrollId) && !assertGM && !ItemConstants.isModifierScroll(scrollId) && !ItemConstants.isNonDpsScroll(scrollId)) {
                         nEquip.setUpgradeSlots((byte) (nEquip.getUpgradeSlots() - 1));
                     }
-                    if (Randomizer.nextInt(100) < stats.get("cursed")) {
-                        return null;
-                    }
+                    // if (Randomizer.nextInt(100) < stats.get("cursed")) {
+                    //     return null;
+                    // }
                 }
             }
         }
