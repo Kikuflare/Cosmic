@@ -45,6 +45,7 @@ public class ElNath extends GachaponItems {
     public int[] getRareItems() {
         return new int[] {
                 1122000, // Horntail Necklace
+                1122059, // Mark of Naricain
         };
     }
 
