@@ -6,135 +6,116 @@ WHERE
 INSERT INTO
     shopitems (shopid, itemid, price, pitch, position)
 VALUES
-    (9000069, 2280012, 20000000, 0, 520),
-    (9000069, 2280008, 20000000, 0, 516),
+    (9000069, 2280012, 20000000, 0, 516), -- [Skill Book] Rush - You can learn #cRush# with this book.rnJob : 4th Advancement WarriorrnCondition : #cRush# not acquired
+    (9000069, 2280008, 20000000, 0, 512), -- [Skill Book] Advanced Charge - You can learn #cAdvanced Charge# with this book.rnClass : PaladinrnCondition : #cAdvanced Charge# not acquired
 
-    (9000069, 5220000, 1000000, 0, 512),
-    (9000069, 2041200, 100000000, 0, 508),
-    (9000069, 2049100, 10000000, 0, 504),
+    (9000069, 5220000, 1000000, 0, 508), -- Gachapon Ticket - This ticket will enable you to use Gachapon and obtain various items.
+    (9000069, 2041200, 100000000, 0, 504), -- Dragon Stone - A powerful stone that contains the mysterious power of the dragon. Can only be used on Horntail Necklace.\nSuccess rate:100%, Weapon Defense +140, Magic Defense +140, Avoidability +15, All Stats +15
+    (9000069, 2049100, 10000000, 0, 500), -- Chaos Scroll 60% - Alters the equipment for better or worse. Not available on Cash Items.\nSuccess rate:60%
+
+    (9000069, 2040026, 1000000, 0, 356), -- Scroll for Helmet for INT 10% - Improves INT on headwear.\nSuccess rate 10%, INT+3. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2040031, 1000000, 0, 352), -- Scroll for Helmet for DEX 10% - Improves DEX on headwear.\nSuccess rate 10%, DEX+3. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2040016, 1000000, 0, 348), -- Scroll for Helmet for Accuracy - Improves the helmet's accuracy option.\nSuccess Rate 10%, Dex+2, Accuracy +4. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2040002, 100000, 0, 344), -- Scroll for Helmet for DEF - Improves helmet def.\nSuccess Rate:10%, weapon def.+5, magic def.+3, accuracy+1. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2040005, 100000, 0, 340), -- Scroll for Helmet for HP - Improves MaxHP on hats.\nSuccess rate:10%, MaxHP+30. The success rate of this scroll can be enhanced by Vega's Spell.
+
+    (9000069, 2040105, 1000000, 0, 336), -- Scroll for Face Accessory for Avoidability - Improves avoidability on face accessories.\nSuccess rate:10%, Avoidability +2, DEX +2. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2040100, 100000, 0, 332), -- Scroll for Face Accessory for HP - Improves MaxHP on face accessories.\nSuccess rate:10%, MaxHP +30. The success rate of this scroll can be enhanced by Vega's Spell.
+
+    (9000069, 2040205, 1000000, 0, 328), -- Scroll for Eye Accessory for INT - Improves INT on eye accessories.\nSuccess rate:10%, INT +3, Magic Def. +2. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2040200, 1000000, 0, 324), -- Scroll for Eye Accessory for Accuracy - Improves accuracy on eye accessories.\nSuccess rate:10%, Accuracy +3, DEX +1. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2040202, 100000, 0, 320), -- Scroll for Eye Accessory for Accuracy - Improves accuracy on eye accessories.\nSuccess rate:100%, Accuracy +1
+
+    (9000069, 2040302, 1000000, 0, 316), -- Scroll for Earring for INT - Improves INT on ear accessory.\nSuccess rate:10%, magic attack +5, INT+3, magic def. +1. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2040318, 1000000, 0, 312), -- Scroll for Earring for DEX 10% - Improves DEX on earrings.\nSuccess rate:10%, DEX+3. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2040323, 1000000, 0, 308), -- Scroll for Earring for LUK 10% - Improves LUK on earrings.\nSuccess rate:10%, LUK+3. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2040328, 100000, 0, 304), -- Scroll for Earring for HP 10% - Improves HP on earrings.\nSuccess rate:10%, MaxHP+30. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2040310, 100000, 0, 300), -- Scroll for Earring for DEF - Improves DEF on earrings.\nSuccess Rate 10%, weapon defense+3, magic defense+3, Accuracy+1. The success rate of this scroll can be enhanced by Vega's Spell.
+
+    (9000069, 2040412, 1000000, 0, 296), -- Scroll for Topwear for LUK - Improves LUK on the topwear.\nSuccess Rate 10%, LUK+3, avoidability+3. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2040419, 1000000, 0, 292), -- Scroll for Topwear for STR 10% - Improves strength on topwear.\nSuccess rate 10%, STR+3. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2040422, 100000, 0, 288), -- Scroll for Topwear for HP 10% - Improves HP on topwear.\nSuccess rate 10%, MaxHP + 30. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2040402, 100000, 0, 284), -- Scroll for Topwear for DEF - Improves weapon def. on topwear.\nSuccess rate:10%, weapon def. +5, magic def. +3, MaxHP+10. The success rate of this scroll can be enhanced by Vega's Spell.
+
+    (9000069, 2040502, 1000000, 0, 280), -- Scroll for Overall Armor for DEX - Improves dexterity on the overall armor.\nSuccess rate:10%, DEX+5, accuracy+3, speed+1. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2040514, 1000000, 0, 276), -- Scroll for Overall Armor for INT - Improves INT on the overall armor.\nSuccess rate: 10%, INT + 5, magic def. + 3, MaxMP + 10. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2040517, 1000000, 0, 272), -- Scroll for Overall Armor for LUK - Improves LUK on the overall armor.\nSuccess rate: 10%, LUK + 5, avoidability + 3, accuracy + 1. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2040534, 1000000, 0, 268), -- Scroll for Overall for STR 10% - Improves strength on overalls.\nSuccess rate:10%, STR+5, weapon def.+3, MaxHP+5. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2040505, 100000, 0, 264), -- Scroll for Overall Armor for DEF - Improves def. on the overall armor.\nSuccess rate:10%, wepon def. +5, magic def. +3, MaxHP+10. The success rate of this scroll can be enhanced by Vega's Spell.
+
+    (9000069, 2040612, 1000000, 0, 260), -- Scroll for Bottomwear for DEX - Improves dexterity on the bottomwear.\nSuccess Rate 10%, DEX+3, speed+3. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2040627, 1000000, 0, 256), -- Scroll for Bottomwear for DEX 10% - Improves dexterity on bottomwears.\nSuccess rate:10%, DEX+3, accuracy+2, speed+1. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2040602, 100000, 0, 252), -- Scroll for Bottomwear for DEF - Improves weapon def. on the bottomwear.\nSuccess rate:10%, weapon def.+5, magic def.+3, MaxHP+10. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2040622, 100000, 0, 248), -- Scroll for Bottomwear for HP 10% - Improves HP on bottomwears.\nSuccess rate:10%, MaxHP+30. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2040619, 100000, 0, 244), -- Scroll for Bottomwear for Jump 10% - Improves jumping abilities on bottomwears..\nSuccess rate:10%, jump+4, avoidability+2. The success rate of this scroll can be enhanced by Vega's Spell.
+
+    (9000069, 2040760, 1000000, 0, 240), -- Scroll for Shoes for ATT - Improves attack on shoes.\nSuccess rate: 10%, Weapon Attack +3. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2040702, 100000, 0, 236), -- Scroll for Shoes for DEX - Improves dexterity on shoes.\nSuccess rate:10%, Avoidability +5, accuracy +3, speed+1. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2040705, 100000, 0, 232), -- Scroll for Shoes for Jump - Improves jump on shoes.\nSuccess rate:10%, jump+5, DEX+3, speed+1. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2040708, 100000, 0, 228), -- Scroll for Shoes for Speed - Improves speed on shoes.\nSuccess rate:10%, speed+3. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2040727, 100000, 0, 224), -- Scroll for Spikes on Shoes 10% - Adds traction to the shoes, which prevents the shoes from slipping on slippery surface.\nSuccess rate:10%, Does not affect the number of upgrades available. The success rate of this scroll can be enhanced by Vega's Spell.
+
+    (9000069, 2040805, 1000000, 0, 220), -- Scroll for Gloves for ATT - Improves attack on gloves.\nSuccess rate:10%, weapon att.+3. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2040816, 1000000, 0, 216), -- Scroll for Gloves for Magic Att. - Improves magic attack on the glove.\nSuccess Rate 10%, magic defense+1, magic attack+3, INT+3. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2040802, 100000, 0, 212), -- Scroll for Gloves for DEX - Improves dexterity on gloves.\nSuccess rate:10%, accuracy+5, DEX+3, avoidability+1. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2040825, 100000, 0, 208), -- Scroll for Gloves for HP 10% - Improves HP on gloves.\nSuccess rate:10%, MaxHP+30. The success rate of this scroll can be enhanced by Vega's Spell.
+
+    (9000069, 2040915, 1000000, 0, 204), -- Scroll for Shield for Weapon Att. - Improves weapon attack on the shield.\nSuccess Rate 10%, W. attack+3, STR+2. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2040920, 1000000, 0, 200), -- Scroll for Shield for Magic Att. - Improves magic attack on the shield.\nSuccess Rate 10%, magic attack+3, INT+2. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2040925, 100000, 0, 196), -- Scroll for Shield for LUK 10% - Improves LUK on shields.\nSuccess rate:10%, LUK+3. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2040933, 100000, 0, 192), -- Scroll for Shield for STR 10% - Improves strength on shields.\nSuccess rate:10%, STR+3. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2040902, 100000, 0, 188), -- Scroll for Shield for DEF - Improves weapon def. on the shield.\nSuccess rate 10%, weapon def.+5, magic def.+3, MaxHP+10. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2040928, 100000, 0, 184), -- Scroll for Shield for HP 10% - Improves HP on shields.\nSuccess rate:10%, MaxHP+30. The success rate of this scroll can be enhanced by Vega's Spell.
+
+    (9000069, 2041014, 100000, 0, 180), -- Scroll for Cape for STR - Improves STR on the cape.\nSuccess rate:10%, STR+3. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2041017, 100000, 0, 176), -- Scroll for Cape for INT - Improves INT on the cape.\nSuccess rate:10%, INT+3. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2041020, 100000, 0, 172), -- Scroll for Cape for DEX - Improves DEX on the cape.\nSuccess rate:10%, DEX+3. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2041023, 100000, 0, 168), -- Scroll for Cape for LUK - Improves LUK on the cape.\nSuccess rate:10%, LUK+3. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2041002, 100000, 0, 164), -- Scroll for Cape for Magic Def. - Improves magic def. on the cape.\nSuccess rate:10%, magic def. +5, weapon def. +3, MaxMP+10. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2041005, 100000, 0, 160), -- Scroll for Cape for Weapon Def. - Improves weapon def. on the cape.\nSuccess rate:10%, weapon def. +5, magic def.+3, MaxHP+10. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2041008, 100000, 0, 156), -- Scroll for Cape for HP - Improves MaxHP on the cape.\nSuccess rate:10%, MaxHP+20. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2041011, 100000, 0, 152), -- Scroll for Cape for MP - Improves MaxMP on the cape.\nSuccess rate:10%, MaxMP+20. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2041058, 100000, 0, 148), -- Scroll for Cape for Cold Protection 10% - Includes the effect of protection from cold weather on the cape.\nSuccess rate: 10%. Does not affect the number of upgrades available. The success rate of this scroll can be enhanced by Vega's Spell.
+
+    (9000069, 2043002, 1000000, 0, 144), -- Scroll for One-Handed Sword for ATT - Improves attack on one-handed sword.\nSuccess rate:10%, weapon attack+5, STR+3, weapon def.+1. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2043015, 100000, 0, 140), -- Scroll for One-Handed Sword for Accuracy 100% - Improves accuracy on one-handed swords.\nSuccess rate:100%, accuracy+1
+    (9000069, 2043102, 1000000, 0, 136), -- Scroll for One-Handed Axe for ATT - Improves attack on one-handed axe.\nSuccess rate: 10%, weapon attack +5, STR+3, weapon def. +1. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2043110, 100000, 0, 132), -- Scroll for One-Handed Axe for Accuracy 100% - Improves accuracy on one-handed axe.\nSuccess rate:100%, accuracy+1
+    (9000069, 2043202, 1000000, 0, 128), -- Scroll for One-Handed BW for ATT - Improves attack on one-handed blunt weapon.\nSuccess rate: 10%, weapon attack +5, STR+3, weapon def.+1. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2043210, 100000, 0, 124), -- Scroll for One-Handed BW for Accuracy 100% - Improves accuracy on one-handed blunt weapon.\nSuccess rate:100%, accuracy+1
+    (9000069, 2044002, 1000000, 0, 120), -- Scroll for Two-handed Sword for ATT - Improves attack on two-handed sword.\nSuccess rate:10%, weapon attack+5, STR+3, weapon def.+1. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2044010, 100000, 0, 116), -- Scroll for Two-Handed Sword for Accuracy 100% - Improves accuracy on two-handed swords.\nSuccess rate:100%, accuracy+1
+    (9000069, 2044102, 1000000, 0, 112), -- Scroll for Two-handed Axe for ATT - Improves attack on two-handed axe.\nSuccess rate:10%, weapon attack+5, STR+3, weapon def. +1. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2044110, 100000, 0, 108), -- Scroll for Two-Handed Axe for Accuracy 100% - Improves accuracy on two-handed axe.\nSuccess rate:100%, accuracy+1
+    (9000069, 2044202, 1000000, 0, 104), -- Scroll for Two-handed BW for ATT - Improves attack on two-handed blunt weapon.\nSuccess rate:10%, weapon attack+5, STR+3, weapon def.+1. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2044210, 100000, 0, 100), -- Scroll for Two-Handed BW for Accuracy 100% - Improves accuracy on two-handed blunt weapon.\nSuccess rate:100%, accuracy+1
+    (9000069, 2044302, 1000000, 0, 96), -- Scroll for Spear for ATT - Improves attack on spear.\nSuccess rate:10%, weapon attack+5, STR+3, weapon def.+1. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2044310, 100000, 0, 92), -- Scroll for Spear for Accuracy 100% - Improves accuracy on spears.\nSuccess rate:100%, accuracy+1
+    (9000069, 2044402, 1000000, 0, 88), -- Scroll for Pole Arm for ATT - Improves attack on pole arm.\nSuccess rate:10%, weapon attack+5, STR+3, weapon def.+1. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2044410, 100000, 0, 84), -- Scroll for Pole-Arm for Accuracy 100% - Improves accuracy on pole-arms.\nSuccess rate:100%, accuracy+1
+
+    (9000069, 2043702, 1000000, 0, 80), -- Scroll for Wand for Magic Att. - Improves magic on wand.\nSuccess rate:10%, magic attack+5, INT+3, magic def.+1. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2043802, 1000000, 0, 76), -- Scroll for Staff for Magic Att. - Improves magic on staff.\nSuccess rate:10%, magic attack+5, INT+3, magic def.+1. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2043008, 100000, 0, 72), -- Scroll for One-Handed Sword for Magic Att. - Improves magic attack on one-handed sword.\nSuccess Rate 10%, magic attack+2, magic defense+1, INT+2. The success rate of this scroll can be enhanced by Vega's Spell.
     
-    (9000069, 2040017, 1000000, 0, 500),
-    (9000069, 2040016, 1000000, 0, 496),
-    (9000069, 2040025, 1000000, 0, 492),
-    (9000069, 2040026, 1000000, 0, 488),
-    (9000069, 2040029, 1000000, 0, 484),
-    (9000069, 2040031, 1000000, 0, 480),
-    (9000069, 2040106, 1000000, 0, 476),
-    (9000069, 2040105, 1000000, 0, 472),
-    (9000069, 2040201, 1000000, 0, 468),
-    (9000069, 2040200, 1000000, 0, 464),
-    (9000069, 2040206, 1000000, 0, 460),
-    (9000069, 2040205, 1000000, 0, 456),
-    (9000069, 2040301, 1000000, 0, 452),
-    (9000069, 2040302, 1000000, 0, 448),
-    (9000069, 2040317, 1000000, 0, 444),
-    (9000069, 2040318, 1000000, 0, 440),
-    (9000069, 2040321, 1000000, 0, 436),
-    (9000069, 2040323, 1000000, 0, 432),
-    (9000069, 2040413, 1000000, 0, 424),
-    (9000069, 2040412, 1000000, 0, 424),
-    (9000069, 2040418, 1000000, 0, 420),
-    (9000069, 2040419, 1000000, 0, 416),
-    (9000069, 2040501, 1000000, 0, 404),
-    (9000069, 2040502, 1000000, 0, 400),
-    (9000069, 2040513, 1000000, 0, 396),
-    (9000069, 2040514, 1000000, 0, 392),
-    (9000069, 2040516, 1000000, 0, 388),
-    (9000069, 2040517, 1000000, 0, 384),
-    (9000069, 2040532, 1000000, 0, 380),
-    (9000069, 2040534, 1600000, 0, 376),
-    (9000069, 2040613, 1000000, 0, 372),
-    (9000069, 2040612, 1000000, 0, 368),
-    (9000069, 2040618, 1000000, 0, 364),
-    (9000069, 2040619, 1600000, 0, 360),
-    (9000069, 2040625, 1000000, 0, 356),
-    (9000069, 2040627, 1000000, 0, 352),
-    (9000069, 2040701, 1000000, 0, 348),
-    (9000069, 2040702, 1000000, 0, 344),
-    (9000069, 2040704, 1000000, 0, 340),
-    (9000069, 2040705, 1000000, 0, 336),
-    (9000069, 2040707, 1000000, 0, 332),
-    (9000069, 2040708, 1000000, 0, 328),
-    (9000069, 2040727, 1000000, 0, 324),
-    (9000069, 2040801, 1000000, 0, 320),
-    (9000069, 2040802, 1000000, 0, 316),
-    (9000069, 2040804, 1000000, 0, 312),
-    (9000069, 2040805, 1000000, 0, 308),
-    (9000069, 2040817, 1000000, 0, 304),
-    (9000069, 2040816, 1000000, 0, 300),
-    (9000069, 2040914, 1000000, 0, 296),
-    (9000069, 2040915, 1000000, 0, 292),
-    (9000069, 2040919, 1000000, 0, 288),
-    (9000069, 2040920, 1000000, 0, 284),
-    (9000069, 2040924, 1000000, 0, 280),
-    (9000069, 2040925, 1000000, 0, 276),
-    (9000069, 2040932, 1000000, 0, 272),
-    (9000069, 2040933, 1000000, 0, 268),
-    (9000069, 2041013, 1000000, 0, 264),
-    (9000069, 2041014, 1000000, 0, 260),
-    (9000069, 2041016, 1000000, 0, 256),
-    (9000069, 2041017, 1000000, 0, 252),
-    (9000069, 2041019, 1000000, 0, 248),
-    (9000069, 2041020, 1000000, 0, 244),
-    (9000069, 2041022, 1000000, 0, 240),
-    (9000069, 2041023, 1000000, 0, 236),
-    (9000069, 2041058, 1000000, 0, 232),
-    (9000069, 2043001, 1000000, 0, 228),
-    (9000069, 2043002, 1000000, 0, 224),
-    (9000069, 2043009, 1000000, 0, 220),
-    (9000069, 2043008, 1000000, 0, 216),
-    (9000069, 2043101, 1000000, 0, 212),
-    (9000069, 2043102, 1000000, 0, 208),
-    (9000069, 2043201, 1000000, 0, 204),
-    (9000069, 2043202, 1000000, 0, 200),
-    (9000069, 2043301, 1000000, 0, 196),
-    (9000069, 2043302, 1000000, 0, 192),
-    (9000069, 2043701, 1000000, 0, 188),
-    (9000069, 2043702, 1000000, 0, 184),
-    (9000069, 2043801, 1000000, 0, 180),
-    (9000069, 2043802, 1000000, 0, 176),
-    (9000069, 2044001, 1000000, 0, 172),
-    (9000069, 2044002, 1000000, 0, 168),
-    (9000069, 2044101, 1000000, 0, 164),
-    (9000069, 2044102, 1000000, 0, 160),
-    (9000069, 2044201, 1000000, 0, 156),
-    (9000069, 2044202, 1000000, 0, 152),
-    (9000069, 2044301, 1000000, 0, 148),
-    (9000069, 2044302, 1000000, 0, 144),
-    (9000069, 2044401, 1000000, 0, 140),
-    (9000069, 2044402, 1000000, 0, 136),
-    (9000069, 2044501, 1000000, 0, 132),
-    (9000069, 2044502, 1000000, 0, 128),
-    (9000069, 2044601, 1000000, 0, 124),
-    (9000069, 2044602, 1000000, 0, 120),
-    (9000069, 2044701, 1000000, 0, 116),
-    (9000069, 2044702, 1000000, 0, 112),
-    (9000069, 2044801, 1000000, 0, 108),
-    (9000069, 2044802, 1000000, 0, 104),
-    (9000069, 2044901, 1000000, 0, 100),
-    (9000069, 2044902, 1000000, 0, 96),
+    (9000069, 2044502, 1000000, 0, 68), -- Scroll for Bow for ATT - Improves attack on bow.\nSuccess rate:10%, weapon attack+5, accuracy+3, DEX+1. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2044602, 1000000, 0, 64), -- Scroll for Crossbow for ATT - Improves attack on crossbow.\nSuccess rate:10%, weapon attack+5, accuracy+3, DEX+1. The success rate of this scroll can be enhanced by Vega's Spell.
+    
+    (9000069, 2043302, 1000000, 0, 60), -- Scroll for Dagger for ATT - Improves attack on dagger.\nSuccess rate: 10%, weapon attack +5, LUK+3, weapon def.+1. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2044702, 1000000, 0, 56), -- Scroll for Claw for ATT - Improves attack on claw.\nSuccess rate:10%, weapon attack+5, accuracy+3, LUK+1. The success rate of this scroll can be enhanced by Vega's Spell.
+    
+    (9000069, 2044802, 1000000, 0, 52), -- Scroll for Knuckler for ATT - Improves attack on Knucklers.\nSuccess rate:10%, weapon att. +5, STR+3, weapon def. +1. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2044805, 100000, 0, 48), -- Scroll for Knuckle for Accuracy 100% - Improves accuracy on knuckles.\nSuccess rate:100%, accuracy+1
+    (9000069, 2044902, 1000000, 0, 44), -- Scroll for Gun for ATT - Improves attack on Guns.\nSuccess rate:10%, weapon att. +5, accuracy+3, DEX+1. The success rate of this scroll can be enhanced by Vega's Spell.
 
-    (9000069, 2048001, 1000000, 0, 92),
-    (9000069, 2048002, 1000000, 0, 88),
-    (9000069, 2048004, 1000000, 0, 84),
-    (9000069, 2048005, 1000000, 0, 80),
+    (9000069, 2048002, 100000, 0, 40), -- Scroll for Pet Equip. for Speed - Improves speed on pet equip.\nSuccess rate:10%, moving speed+3. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2048005, 100000, 0, 36), -- Scroll for Pet Equip. for Jump - Improves jump on pet equip.\nSuccess rate:10%, jump+3. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2048010, 1000000, 0, 32), -- Scroll for Pet Equip. for STR 60% - Improves strength on pet equipments.\nSuccess rate:60%, STR+1. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2048011, 1000000, 0, 28), -- Scroll for Pet Equip. for INT 60% - Improves intelligence on pet equipments.\nSuccess rate:60%, INT+1. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2048012, 1000000, 0, 24), -- Scroll for Pet Equip. for DEX 60% - Improves dexterity on pet equipments.\nSuccess rate:60%, DEX+1. The success rate of this scroll can be enhanced by Vega's Spell.
+    (9000069, 2048013, 1000000, 0, 20), -- Scroll for Pet Equip. for LUK 60% - Improves luck on pet equipments.\nSuccess rate:60%, LUK+1. The success rate of this scroll can be enhanced by Vega's Spell.
 
-    (9000069, 2040329, 1000000, 0, 76),
-    (9000069, 2040330, 1000000, 0, 72),
-    (9000069, 2040331, 1000000, 0, 68),
-    (9000069, 2041101, 1000000, 0, 64),
-    (9000069, 2041102, 1000000, 0, 60),
-    (9000069, 2041104, 1000000, 0, 56),
-    (9000069, 2041105, 1000000, 0, 52),
-    (9000069, 2041107, 1000000, 0, 48),
-    (9000069, 2041108, 1000000, 0, 44),
-    (9000069, 2041110, 1000000, 0, 40),
-    (9000069, 2041111, 1000000, 0, 36),
-    (9000069, 2041301, 1000000, 0, 32),
-    (9000069, 2041302, 1000000, 0, 28),
-    (9000069, 2041304, 1000000, 0, 24),
-    (9000069, 2041305, 1000000, 0, 20),
-    (9000069, 2041307, 1000000, 0, 16),
-    (9000069, 2041308, 1000000, 0, 12),
-    (9000069, 2041310, 1000000, 0, 8),
-    (9000069, 2041311, 1000000, 0, 4);
+    (9000069, 2049201, 1000000, 0, 16), -- Dark Scroll for Accessory for STR 30% - Improves STR on Accessories (Pendants, Belts, Rings).\nSuccess Rate: 30%, STR+3\nIf failed, the item will be destroyed at a 50% rate.
+    (9000069, 2049203, 1000000, 0, 12), -- Dark Scroll for Accessory for DEX 30% - Improves DEX on Accessories (Pendants, Belts, Rings).\nSuccess Rate: 30%, DEX+3\nIf failed, the item will be destroyed at a 50% rate.
+    (9000069, 2049205, 1000000, 0, 8), -- Dark Scroll for Accessory for INT 30% - Improves INT on Accessories (Pendants, Belts, Rings).\nSuccess Rate: 30%. INT+3\nIf failed, the item will be destroyed at a 50% rate.
+    (9000069, 2049207, 1000000, 0, 4); -- Dark Scroll for Accessory for LUK 30% - Improves LUK on Accessories (Pendants, Belts, Rings).\nSuccess Rate: 30%, LUK+3\nIf failed, the item will be destroyed at a 50% rate.

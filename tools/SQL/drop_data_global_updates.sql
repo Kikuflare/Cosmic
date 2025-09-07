@@ -12,7 +12,7 @@ INSERT INTO
         comments
     )
 VALUES
-    (-1, 5220000, 1, 1, 0, 10000, 'Remote Gachapon Ticket'),
+    (-1, 5220000, 1, 1, 0, 10000, 'Gachapon Ticket'),
     (-1, 2049100, 1, 1, 0, 100, 'Chaos Scroll 60%'),
     (-1, 1002357, 1, 1, 0, 100, 'Zakum Helmet'),
     (-1, 1132014, 1, 1, 0, 100, "Witch's Crimson Belt"),
