@@ -1,12 +1,11 @@
 ﻿# KikuMS
 Gameplay changes in KikuMS compared to vanilla Cosmic
-- EXP rate set to 1x from 10x
+- EXP, meso, and drop rates progressively increase every 10 levels
 - Forced 1x EXP rate on Maple Island
 - Maximum allowed level of Kerning and Ludibrium Party Quest set to 200
 - Disabled expiration of Cash Shop items
 - Accounts start with 9,999,999 NX
 - Moved @whatdropsfrom and @whodrops commands to level 0 gm
-- Enabled progressive rates per 10 levels
 - Disabled PIN
 - Disabled rate coupons
 - Disabled pet hunger
@@ -14,16 +13,23 @@ Gameplay changes in KikuMS compared to vanilla Cosmic
 - Set maximum stack for non-equip, non-rechargeable items to 9999
 - Enabled perfect scrolling (global white scrolls)
 - Added workaround for entrace to Time Lane - Temple of Time
-- Disabled purchase of Gachapon Tickets and Vega Scrolls
+- Disabled purchase of Gachapon Tickets and Vega Scrolls from the Cash Shop
 - Added rare items to global drop pool
+- Made VIP Teleport Rocks and AP/SP resets not be consumed on use
+- Disabled validation for unique (one-of-a-kind) items, allowing multiple copies
+- Replaced Gachapon items with more desirable items
+- Disabled item destruction feature on Dark Scrolls
+- Allowed non-dps scrolls (scrolls that do not add w.att, m.att, STR, DEX, INT, or LUK) to be used infinitely on equipment by not requiring or consuming an upgrade slot
+- Fixed bug with scrolls not consuming an upgrade slot to be usable when an item has no slots remaining, rather than failing silently
 
 
 ## Shop changes
 ### Inkwell
 - Removed the default shop items of this NPC
-- Added certain 10%/60% scrolls
-- Added Zakum Helmet
+- Added certain scrolls
 - Added Chaos Scrolls
+- Added certain skill books
+- Added Dragon Stone
 
 # Cosmic
 Cosmic is a server emulator for Global MapleStory (GMS) version 83.
