@@ -82,13 +82,16 @@ public final class SkillBookHandler extends AbstractPacketHandler {
                     }
 
                     canuse = true;
-                    if (ItemInformationProvider.rollSuccessChance(skilldata.get("success"))) {
-                        success = true;
-                        player.changeSkillLevel(skill2, player.getSkillLevel(skill2), Math.max(skilldata.get("masterLevel"), player.getMasterLevel(skill2)), -1);
-                    } else {
-                        success = false;
-                        //player.dropMessage("The skill book lights up, but the skill winds up as if nothing happened.");
-                    }
+
+                    success = true;
+                    player.changeSkillLevel(skill2, player.getSkillLevel(skill2), Math.max(skilldata.get("masterLevel"), player.getMasterLevel(skill2)), -1);
+                    // if (ItemInformationProvider.rollSuccessChance(skilldata.get("success"))) {
+                    //     success = true;
+                    //     player.changeSkillLevel(skill2, player.getSkillLevel(skill2), Math.max(skilldata.get("masterLevel"), player.getMasterLevel(skill2)), -1);
+                    // } else {
+                    //     success = false;
+                    //     //player.dropMessage("The skill book lights up, but the skill winds up as if nothing happened.");
+                    // }
                 } else {
                     canuse = false;
                 }

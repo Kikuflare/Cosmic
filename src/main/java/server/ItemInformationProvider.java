@@ -1094,6 +1094,10 @@ public class ItemInformationProvider {
                         break;
                 }
 
+                if (ItemConstants.isChaosScroll(scrollId)) {
+                    prop = 100.0f;
+                }
+
                 if (assertGM || rollSuccessChance(prop)) {
                     short flag = nEquip.getFlag();
                     switch (scrollId) {
