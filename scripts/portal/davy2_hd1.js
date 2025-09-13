@@ -4,7 +4,7 @@ function enter(pi) {
     var eim = pi.getEventInstance();
     var level = eim.getProperty("level");
     if (eim.getProperty("stage2b") == "0") {
-        pi.getMap(925100202).spawnAllMonstersFromMapSpawnList(level, true);
+        pi.getMap(925100202).spawnAllMonstersFromMapSpawnList(Number(level), true);
         eim.setProperty("stage2b", "1");
     }
 
