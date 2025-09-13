@@ -2,7 +2,8 @@
 Gameplay changes in KikuMS compared to vanilla Cosmic
 - EXP, meso, and drop rates progressively increase every 10 levels
 - Forced 1x EXP rate on Maple Island
-- Maximum allowed level of Kerning and Ludibrium Party Quest set to 200
+- Maximum allowed level of certain party quests set to 200
+- Allow certain party quests to be completable with less than the normal required number of players
 - Disabled expiration of Cash Shop items
 - Accounts start with 9,999,999 NX
 - Moved @whatdropsfrom and @whodrops commands to level 0 gm
@@ -21,6 +22,8 @@ Gameplay changes in KikuMS compared to vanilla Cosmic
 - Disabled item destruction feature on Dark Scrolls
 - Allowed non-dps scrolls (scrolls that do not add w.att, m.att, STR, DEX, INT, or LUK) to be used infinitely on equipment by not requiring or consuming an upgrade slot
 - Fixed bug with scrolls not consuming an upgrade slot to be usable when an item has no slots remaining, rather than failing silently
+- Increased success rate of Chaos Scrolls and skill books to 100%
+- Fixed bug with the quest item "Magic Device" for the quest "Carson's Experiment" missing from the drop table
 
 
 ## Shop changes

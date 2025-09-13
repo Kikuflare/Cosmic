@@ -26,8 +26,10 @@
 var isPq = true;
 var isGrindMode = false;     // stages done after breaking all boxes on maps
 
-var minPlayers = 3, maxPlayers = 6;
-var minLevel = 55, maxLevel = 100;
+var minPlayers = 1; // Default: 3
+var maxPlayers = 6;
+var minLevel = 55;
+var maxLevel = 200; // Default: 100
 var entryMap = 925100000;
 var exitMap = 925100700;
 var recruitMap = 251010404;
@@ -36,7 +38,7 @@ var clearMap = 925100600;
 var minMapId = 925100000;
 var maxMapId = 925100500;
 
-var eventTime = 4;     // 4 minutes
+var eventTime = 60;     // Default: 4 minutes
 
 const maxLobbies = 1;
 

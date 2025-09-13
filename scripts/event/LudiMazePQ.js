@@ -24,8 +24,10 @@
  */
 
 var isPq = true;
-var minPlayers = 3, maxPlayers = 6;
-var minLevel = 51, maxLevel = 70;
+var minPlayers = 1; // Default: 3
+var maxPlayers = 6;
+var minLevel = 51;
+var maxLevel = 200; // Default: 70
 var entryMap = 809050000;
 var exitMap = 809050017;
 var recruitMap = 220000000;
@@ -34,7 +36,7 @@ var clearMap = 809050016;
 var minMapId = 809050000;
 var maxMapId = 809050016;
 
-var eventTime = 15;     // 15 minutes
+var eventTime = 60;     // Default: 15 minutes
 
 const maxLobbies = 1;
 
