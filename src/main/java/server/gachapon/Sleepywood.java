@@ -69,7 +69,6 @@ public class Sleepywood extends GachaponItems {
                 1442023, // Maroon Mop
                 1442022, // White Mop
                 1372031, // Heart Staff
-                1702033, // Sun Quan Staff
         };
     }
 
