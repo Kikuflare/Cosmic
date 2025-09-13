@@ -177,7 +177,12 @@ public class ReactorActionManager extends AbstractPlayerInteraction {
                     Item drop;
 
                     if (ItemConstants.getInventoryType(d.itemId) != InventoryType.EQUIP) {
-                        drop = new Item(d.itemId, (short) 0, (short) 1);
+                        short quantity = 1;
+
+                        if (d.itemId == 2022131 || d.itemId == 2022132) {
+                            quantity = 10;
+                        }
+                        drop = new Item(d.itemId, (short) 0, quantity);
                     } else {
                         drop = ii.randomizeStats((Equip) ii.getEquipById(d.itemId));
                     }
