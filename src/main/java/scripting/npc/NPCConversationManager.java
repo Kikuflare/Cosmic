@@ -79,6 +79,22 @@ import static java.util.concurrent.TimeUnit.MINUTES;
 public class NPCConversationManager extends AbstractPlayerInteraction {
     private static final Logger log = LoggerFactory.getLogger(NPCConversationManager.class);
 
+    static final Map<Integer, Integer> GACHAPON_NPC_TO_MAP = new HashMap<>();
+        static {
+            GACHAPON_NPC_TO_MAP.put(NpcId.GACHAPON_HENESYS, MapId.HENESYS);
+            GACHAPON_NPC_TO_MAP.put(NpcId.GACHAPON_ELLINIA, MapId.ELLINIA);
+            GACHAPON_NPC_TO_MAP.put(NpcId.GACHAPON_PERION, MapId.PERION);
+            GACHAPON_NPC_TO_MAP.put(NpcId.GACHAPON_KERNING, MapId.KERNING_CITY);
+            GACHAPON_NPC_TO_MAP.put(NpcId.GACHAPON_SLEEPYWOOD, MapId.SLEEPYWOOD);
+            GACHAPON_NPC_TO_MAP.put(NpcId.GACHAPON_MUSHROOM_SHRINE, MapId.MUSHROOM_SHRINE);
+            GACHAPON_NPC_TO_MAP.put(NpcId.GACHAPON_SHOWA_MALE, MapId.SHOWA_SPA_M);
+            GACHAPON_NPC_TO_MAP.put(NpcId.GACHAPON_SHOWA_FEMALE, MapId.SHOWA_SPA_F);
+            GACHAPON_NPC_TO_MAP.put(NpcId.GACHAPON_NLC, MapId.NEW_LEAF_CITY);
+            GACHAPON_NPC_TO_MAP.put(NpcId.GACHAPON_NAUTILUS, MapId.NAUTILUS_HARBOR);
+            GACHAPON_NPC_TO_MAP.put(NpcId.GACHAPON_LUDIBRIUM, MapId.LUDIBRIUM);
+            GACHAPON_NPC_TO_MAP.put(NpcId.GACHAPON_EL_NATH, MapId.EL_NATH);
+        }
+
     private final int npc;
     private int npcOid;
     private String scriptName;
@@ -412,10 +428,9 @@ public class NPCConversationManager extends AbstractPlayerInteraction {
 
         sendNext("You have obtained a #b#t" + item.getId() + "##k.");
 
-        int[] maps = {MapId.HENESYS, MapId.ELLINIA, MapId.PERION, MapId.KERNING_CITY, MapId.SLEEPYWOOD, MapId.MUSHROOM_SHRINE,
-                MapId.SHOWA_SPA_M, MapId.SHOWA_SPA_F, MapId.NEW_LEAF_CITY, MapId.NAUTILUS_HARBOR};
-        final int mapId = maps[(getNpc() != NpcId.GACHAPON_NAUTILUS && getNpc() != NpcId.GACHAPON_NLC) ?
-                (getNpc() - NpcId.GACHAPON_HENESYS) : getNpc() == NpcId.GACHAPON_NLC ? 8 : 9];
+        // Improved mapping of Gachapon NPC IDs to map IDs using a static map for clarity and maintainability
+        
+        final int mapId = GACHAPON_NPC_TO_MAP.getOrDefault(getNpc(), MapId.HENESYS);
         String map = c.getChannelServer().getMapFactory().getMap(mapId).getMapName();
 
         Gachapon.log(getPlayer(), item.getId(), map);
