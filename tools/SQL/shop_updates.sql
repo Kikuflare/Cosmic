@@ -6,6 +6,55 @@ WHERE
 INSERT INTO
     shopitems (shopid, itemid, price, pitch, position)
 VALUES
+    (9000069, 4021010, 1000000, 0, 700), -- Rock of Time - A fascinating gem that contains the power of time.
+    (9000069, 4260000, 10000, 0, 696), -- Basic Monster Crystal 1 - A Monster Crystal that was formed by combining the droppings of monsters on level 31 ~ 50.
+    (9000069, 4260001, 10000, 0, 692), -- Basic Monster Crystal 2 - A Monster Crystal that was formed by combining the droppings of monsters on level 51 ~ 60.
+    (9000069, 4260002, 10000, 0, 688), -- Basic Monster Crystal 3 - A Monster Crystal that was formed by combining the droppings of monsters on level 61 ~ 70.
+    (9000069, 4260003, 10000, 0, 684), -- Intermediate Monster Crystal 1 - A Monster Crystal that was formed by combining the droppings of monsters on level 71 ~ 80.
+    (9000069, 4260004, 10000, 0, 680), -- Intermediate Monster Crystal 2 - A Monster Crystal that was formed by combining the droppings of monsters on level 81 ~ 90.
+    (9000069, 4260005, 10000, 0, 676), -- Intermediate Monster Crystal 3 - A Monster Crystal that was formed by combining the droppings of monsters on level 91 ~ 100.
+    (9000069, 4260006, 10000, 0, 672), -- Advanced Monster Crystal 1 - A Monster Crystal that was formed by combining the droppings of monsters on level 101 ~ 110.
+    (9000069, 4260007, 10000, 0, 668), -- Advanced Monster Crystal 2 - A Monster Crystal that was formed by combining the droppings of monsters on level 111 ~ 120.
+    (9000069, 4260008, 10000, 0, 664), -- Advanced Monster Crystal 3 - A Monster Crystal that was formed by combining the droppings of monsters on level 121 ~ 130.
+    (9000069, 4250002, 10000, 0, 660), -- Advanced Diamond - A jewel used primarily for item-production.\nWeapon ATT+3
+    (9000069, 4250102, 10000, 0, 656), -- Advanced Sapphire - A jewel used primarily for item-production.\nMagic ATT+3
+    (9000069, 4250202, 10000, 0, 652), -- Advanced Garnet - A jewel used primarily for item-production.\nAccuracy+5
+    (9000069, 4250302, 10000, 0, 648), -- Advanced Opal - A jewel used primarily for item-production.\nAvoidability+5
+    (9000069, 4250402, 10000, 0, 644), -- Advanced Amethyst - A jewel used primarily for item-production.\nSpeed+5
+    (9000069, 4250502, 10000, 0, 640), -- Advanced AquaMarine - A jewel used primarily for item-production.\nJump+3
+    (9000069, 4250602, 10000, 0, 636), -- Advanced Topaz - A jewel used primarily for item-production.\nMaxHP+30
+    (9000069, 4250702, 10000, 0, 632), -- Advanced Emerald - A jewel used primarily for item-production.\nMaxMP+30
+    (9000069, 4250802, 10000, 0, 628), -- Advanced Power Crystal - A jewel used primarily for item-production.\nSTR+5
+    (9000069, 4250902, 10000, 0, 624), -- Advanced Wisdom Crystal - A jewel used primarily for item-production.\nINT+5
+    (9000069, 4251002, 10000, 0, 620), -- Advanced LUK Crystal - A jewel used primarily for item-production.\nLUK+5
+    (9000069, 4251102, 10000, 0, 616), -- Advanced DEX Crystal - A jewel used primarily for item-production.\nDEX+5
+    (9000069, 4251202, 10000, 0, 612), -- Advanced Secret Crystal - A jewel used primarily for item-production.\nRequired Level -3
+    (9000069, 4251302, 10000, 0, 608), -- Advanced Black Crystal - A jewel used primarily for item-production.\nThere's no way to tell how the item will turn out with this.
+    (9000069, 4251402, 10000, 0, 604), -- Advanced Dark Crystal - A jewel used primarily for item-production.\nThere's no way to tell how the item will turn out with this.
+    (9000069, 4130018, 1000, 0, 600), -- Armor Production Stimulator - Use this when making a headgear to change the item option. Beware that this also carries a 10% risk of ruining the item production.
+    (9000069, 4130019, 1000, 0, 596), -- Topwear Production Stimulator - Use this when making a topwear to change the item option. Beware that this also carries a 10% risk of ruining the item production.
+    (9000069, 4130020, 1000, 0, 592), -- Bottomwear Production Stimulator - Use this when making a bottomwear to change the item option. Beware that this also carries a 10% risk of ruining the item production.
+    (9000069, 4130021, 1000, 0, 588), -- Overall Production Stimulator - Use this when making an overall to change the item option. Beware that this also carries a 10% risk of ruining the item production.
+    (9000069, 4130022, 1000, 0, 584), -- Shield Production Stimulator - Use this when making a shield to change the item option. Beware that this also carries a 10% risk of ruining the item production.
+    (9000069, 4130000, 1000, 0, 580), -- Gloves Production Stimulator - Item option changes when you make gloves with this stimulator. However, creating item may result in failure by 10%.
+    (9000069, 4130001, 1000, 0, 576), -- Shoes Production Stimulator - Item option changes when you make shoes with this stimulator. However, creating item may result in failure by 10%.
+    (9000069, 4130002, 1000, 0, 572), -- One-Handed Sword Forging Stimulator - Item option changes when you make one-handed sword with this stimulator. However, creating item may result in failure by 10%.
+    (9000069, 4130003, 1000, 0, 568), -- One-Handed Axe Forging Stimulator - Item option changes when you make one-handed axe with this stimulator. However, creating item may result in failure by 10%.
+    (9000069, 4130004, 1000, 0, 564), -- One-Handed Blunt Weapon Forging Stimulator - Item option changes when you make one-handed blunt weapon with this stimulator. However, creating item may result in failure by 10%.
+    (9000069, 4130005, 1000, 0, 560), -- Two-Handed Sword Forging Stimulator - Item option changes when you make two-handed sword with this stimulator. However, creating item may result in failure by 10%.
+    (9000069, 4130006, 1000, 0, 556), -- Two-Handed Axe Forging Stimulator - Item option changes when you make two-handed axe with this stimulator. However, creating item may result in failure by 10%.
+    (9000069, 4130007, 1000, 0, 552), -- Two-Handed Mace Forging Stimulator - Item option changes when you make two-handed mace with this stimulator. However, creating item may result in failure by 10%.
+    (9000069, 4130008, 1000, 0, 548), -- Spear Forging Stimulator - Item option changes when you make spear with this stimulator. However, creating item may result in failure by 10%.
+    (9000069, 4130009, 1000, 0, 544), -- Pole Arm Forging Stimulator - Item option changes when you make pole arm with this stimulator. However, creating item may result in failure by 10%.
+    (9000069, 4130010, 1000, 0, 540), -- Wand Production Stimulator - Item option changes when you make wand with this stimulator. However, creating item may result in failure by 10%.
+    (9000069, 4130011, 1000, 0, 536), -- Staff Production Stimulator - Item option changes when you make staff with this stimulator. However, creating item may result in failure by 10%.
+    (9000069, 4130012, 1000, 0, 532), -- Bow Production Stimulator - Item option changes when you make bow with this stimulator. However, creating item may result in failure by 10%.
+    (9000069, 4130013, 1000, 0, 528), -- Crossbow Production Stimulator - Item option changes when you make crossbow with this stimulator. However, creating item may result in failure by 10%.
+    (9000069, 4130014, 1000, 0, 524), -- Dagger Forging Stimulator - Item option changes when you make dagger with this stimulator. However, creating item may result in failure by 10%.
+    (9000069, 4130015, 1000, 0, 520), -- Claw Production Stimulator - Item option changes when you make claw with this stimulator. However, creating item may result in failure by 10%.
+    (9000069, 4130016, 1000, 0, 516), -- Knuckler Production Stimulator - Item option changes when you make the Knuckler with this stimulator. However, there's a 10% chance of failure.
+    (9000069, 4130017, 1000, 0, 512), -- Gun Production Stimulator - Item option changes when you make the gun with this stimulator. However, there's a 10% chance of failure.
+
     (9000069, 5220000, 1000000, 0, 508), -- Gachapon Ticket - This ticket will enable you to use Gachapon and obtain various items.
     (9000069, 2041200, 100000000, 0, 504), -- Dragon Stone - A powerful stone that contains the mysterious power of the dragon. Can only be used on Horntail Necklace.\nSuccess rate:100%, Weapon Defense +140, Magic Defense +140, Avoidability +15, All Stats +15
     (9000069, 2049100, 10000000, 0, 500), -- Chaos Scroll 60% - Alters the equipment for better or worse. Not available on Cash Items.\nSuccess rate:60%
