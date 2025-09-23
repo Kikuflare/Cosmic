@@ -6,6 +6,14 @@ WHERE
 INSERT INTO
     shopitems (shopid, itemid, price, pitch, position)
 VALUES
+
+    (9000069, 2290096, 10000000, 0, 724), -- [Mastery Book] Maple Warrior - This increases the master level of #cMaple Warrior# up to 20 with 70% of chance.rnJob : All 4th Advancement JobsrnCondition : Skill level above 5
+    (9000069, 2290125, 10000000, 0, 720), -- [Mastery Book] Maple Warrior - This increases the master level of #cMaple Warrior# up to 30 with 50% of chance.rnJob : All 4th Advancement JobsrnCondition : Skill level above 15
+    (9000069, 2290046, 10000000, 0, 716), -- [Mastery Book] Blizzard - This increases the master level of #cBlizzard# up to 20 with 70% of chance.rnClass : Arch Mage(Ice,Lightning)rnCondition : Skill level above 5
+    (9000069, 2290047, 10000000, 0, 712), -- [Mastery Book] Blizzard - This increases the master level of #cBlizzard# up to 30 with 50% of chance.rnClass : Arch Mage(Ice,Lightning)rnCondition : Skill level above 15
+    (9000069, 2290048, 10000000, 0, 708), -- [Mastery Book] Genesis - This increases the master level of #cGenesis# up to 20 with 70% of chance.rnClass : BishoprnCondition : Skill level above 5
+    (9000069, 2290049, 10000000, 0, 704), -- [Mastery Book] Genesis - This increases the master level of #cGenesis# up to 30 with 50% of chance.rnClass : BishoprnCondition : Skill level above 15
+
     (9000069, 4021010, 1000000, 0, 700), -- Rock of Time - A fascinating gem that contains the power of time.
     (9000069, 4260000, 10000, 0, 696), -- Basic Monster Crystal 1 - A Monster Crystal that was formed by combining the droppings of monsters on level 31 ~ 50.
     (9000069, 4260001, 10000, 0, 692), -- Basic Monster Crystal 2 - A Monster Crystal that was formed by combining the droppings of monsters on level 51 ~ 60.
