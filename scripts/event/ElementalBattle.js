@@ -24,7 +24,8 @@
  */
 
 var isPq = true;
-var minPlayers = 2, maxPlayers = 2;
+var minPlayers = 1; // Default: 2
+var maxPlayers = 6; // Default: 2
 var minLevel = 100, maxLevel = 255;
 var entryMap = 922020100;
 var exitMap = 220050300;
@@ -98,7 +99,9 @@ function getEligibleParty(party) {      //selects, from the given party, the tea
         for (var i = 0; i < party.size(); i++) {
             var ch = partyList[i];
 
-            if (ch.getMapId() == recruitMap && ch.getLevel() >= minLevel && ch.getLevel() <= maxLevel && ch.getJob().getJobNiche() == 2) {
+            if (ch.getMapId() == recruitMap && ch.getLevel() >= minLevel && ch.getLevel() <= maxLevel
+            // ch.getJob().getJobNiche() == 2
+        ) {
                 if (ch.isLeader()) {
                     hasLeader = true;
                 }     // magician niche only
